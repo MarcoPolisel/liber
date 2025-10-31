@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página inicial -->
+  <url>
+    <loc>https://liberindustrial.com.br</loc>
+    <lastmod>2024-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Página de produtos -->
+  <url>
+    <loc>https://liberindustrial.com.br/about</loc>
+    <lastmod>2024-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página de contato -->
+  <url>
+    <loc>https://liberindustrial.com.br/contact/</loc>
+    <lastmod>2024-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página sobre a empresa -->
+  <url>
+    <loc>https://liberindustrial.com.br/control</loc>
+    <lastmod>2024-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+
+</urlset>

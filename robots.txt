@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /user-data/
+
+# Permitir acesso ao site principal
+Allow: /
+
+# Bloquear acesso a qualquer URL com parâmetros de consulta (opcional)
+Disallow: /*?*
+
+# Permitir acesso a arquivos importantes como o sitemap
+Allow: /sitemap.xml
+Allow: /public/
+
+# Definir o caminho do sitemap (caso você tenha um)
+Sitemap: https://liberindustrial.com/sitemap.xml
