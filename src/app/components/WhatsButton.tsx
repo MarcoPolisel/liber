@@ -3,7 +3,7 @@ import Image from 'next/image'
 const WhatsAppButton: React.FC = () => {
   return (
     <a
-      href="https://wa.me/5511916011694"
+      href="https://wa.me/5511969050370"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 z-50 bg-transparent  p-4 rounded-full "
