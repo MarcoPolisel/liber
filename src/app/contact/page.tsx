@@ -11,7 +11,7 @@ const Contact = () => {
   const handleSubmit = (e: any) => {
     e.preventDefault()
     const textMessage = `Nome Completo: ${name}%0AEmail: ${email}%0AAssunto: ${subject}%0AMensagem: ${message}`
-    const whatsappURL = `https://wa.me/5511916011694?text=${textMessage}`
+    const whatsappURL = `https://wa.me/5511969050370?text=${textMessage}`
     window.open(whatsappURL, '_blank')
   }
 
