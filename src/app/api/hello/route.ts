@@ -18,7 +18,8 @@ export async function POST(request: Request) {
 
     // Base email configuration
     const emailConfig = {
-      from: 'liber@devdilan.online',
+      // from: 'liber@devdilan.online',
+      from: 'liber@liberindustrial.com.br',
       to: 'rh@liberindustrial.com.br',
       subject: 'Novo curriculo cadastrado',
       react: MailTemplate({ ...data }),
