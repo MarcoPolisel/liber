@@ -3,7 +3,7 @@ import { Resend } from 'resend'
 
 export async function POST(request: Request) {
   // const resend = new Resend('re_69pgH3je_Fuj12U1Xe62vJDMty34wjVCx')
-  const resend = new Resend('re_YMtj387p_Gq3uyAYENfeGerUZVBrTw4Lp')
+  const resend = new Resend('re_6KMcHjhs_KGX4Af43urAqBwf2wJLuit4d')
 
   try {
     // Get the form data from request
@@ -21,7 +21,7 @@ export async function POST(request: Request) {
     const emailConfig = {
       // from: 'liber@devdilan.online',
       from: 'onboarding@resend.dev',
-      to: 'rh@liberindustrial.com.br',
+      to: 'mpolisel@gmail.com',
       subject: 'Novo curriculo cadastrado',
       react: MailTemplate({ ...data }),
       attachments: [] as { filename: string; content: string }[]
