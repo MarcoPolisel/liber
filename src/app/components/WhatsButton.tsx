@@ -5,7 +5,7 @@ import Image from 'next/image'
 const contacts = [
   { label: 'RH', phone: '551140598909', display: '(11) 4059-8909' },
   { label: 'Compras', phone: '5511996066759', display: '(11) 99606-6759' },
-  { label: 'Vendas', phone: '5511916011694', display: '(11) 91601-1694' },
+  { label: 'Vendas', phone: '5511969050370', display: '(11) 96905-0370' },
 ]
 
 const WhatsAppButton: React.FC = () => {
