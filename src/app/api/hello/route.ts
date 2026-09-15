@@ -2,8 +2,7 @@ import MailTemplate from '@/app/components/MailTemplate'
 import { Resend } from 'resend'
 
 export async function POST(request: Request) {
-  // const resend = new Resend('re_69pgH3je_Fuj12U1Xe62vJDMty34wjVCx')
-  const resend = new Resend('re_6KMcHjhs_KGX4Af43urAqBwf2wJLuit4d')
+  const resend = new Resend('re_69pgH3je_Fuj12U1Xe62vJDMty34wjVCx')
 
   try {
     // Get the form data from request
@@ -19,8 +18,7 @@ export async function POST(request: Request) {
 
     // Base email configuration
     const emailConfig = {
-      // from: 'liber@devdilan.online',
-      from: 'onboarding@resend.dev',
+      from: 'liber@devdilan.online',
       to: 'rh@liberindustrial.com.br',
       subject: 'Novo curriculo cadastrado',
       react: MailTemplate({ ...data }),
