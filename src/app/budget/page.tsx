@@ -33,7 +33,7 @@ function Budget() {
     *Prazo de Entrega:* ${formData.prazo}%0A
     *Mensagem:* ${formData.mensagem}`
 
-    const whatsappNumber = '5511916011694' // Coloque o número de WhatsApp aqui
+    const whatsappNumber = '5511969050370' // Coloque o número de WhatsApp aqui
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${textoOrcamento}`
     window.open(whatsappLink, '_blank')
   }
